@@ -1,5 +1,5 @@
 Summary:	DevHelp book: GDK
-Summary(pl):	Ksi±¿ka do DevHelpa o GDK
+Summary(pl.UTF-8):   KsiÄ…Å¼ka do DevHelpa o GDK
 Name:		devhelp-book-gdk
 Version:	1.2
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 DevHelp book about GDK 1.2.
 
-%description -l pl
-Ksi±¿ka do DevHelpa o GDK 1.2.
+%description -l pl.UTF-8
+KsiÄ…Å¼ka do DevHelpa o GDK 1.2.
 
 %prep
 %setup -q -c -n gdk-%{version}
